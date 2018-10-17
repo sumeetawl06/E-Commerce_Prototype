@@ -335,6 +335,7 @@
 				0DAD94912174849200CCAA93 /* Sources */,
 				0DAD94922174849200CCAA93 /* Frameworks */,
 				0DAD94932174849200CCAA93 /* Resources */,
+				03D1B5932063F724D711F07B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -454,6 +455,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03D1B5932063F724D711F07B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fynd_Assignment/Pods-Fynd_Assignment-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fynd_Assignment/Pods-Fynd_Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1743A9B3D2F3BA83E2EF4869 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

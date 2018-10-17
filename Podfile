@@ -9,6 +9,7 @@ target 'Fynd_Assignment' do
   pod 'SDWebImage'
   pod 'PureLayout'
   pod 'AFNetworking'
+  pod 'TOCropViewController'
   
   target 'Fynd_AssignmentTests' do
     inherit! :search_paths
