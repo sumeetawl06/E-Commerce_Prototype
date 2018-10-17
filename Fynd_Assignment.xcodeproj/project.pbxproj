@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2696172177C338002797E3 /* NLCropViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2696132177C337002797E3 /* NLCropViewLayer.m */; };
+		0D2696182177C338002797E3 /* NLImageCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2696152177C337002797E3 /* NLImageCropperView.m */; };
+		0D26961A2177C426002797E3 /* 1*2b3S0aLh90f80FWKcVupnQ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D2696192177C426002797E3 /* 1*2b3S0aLh90f80FWKcVupnQ.jpeg */; };
 		0D72D10021761FE200FC686F /* AbstractProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D0FE21761FE200FC686F /* AbstractProxy.m */; };
 		0D72D144217666F800FC686F /* CategoryDataFetchProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D143217666F800FC686F /* CategoryDataFetchProxy.m */; };
 		0DAD94A02174849200CCAA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD949E2174849200CCAA93 /* Main.storyboard */; };
@@ -46,6 +49,11 @@
 
 /* Begin PBXFileReference section */
 		016302EDB5FAA18E091CD574 /* Pods-Fynd_AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fynd_AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Fynd_AssignmentUITests/Pods-Fynd_AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D2696132177C337002797E3 /* NLCropViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCropViewLayer.m; sourceTree = "<group>"; };
+		0D2696142177C337002797E3 /* NLCropViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCropViewLayer.h; sourceTree = "<group>"; };
+		0D2696152177C337002797E3 /* NLImageCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLImageCropperView.m; sourceTree = "<group>"; };
+		0D2696162177C337002797E3 /* NLImageCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLImageCropperView.h; sourceTree = "<group>"; };
+		0D2696192177C426002797E3 /* 1*2b3S0aLh90f80FWKcVupnQ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1*2b3S0aLh90f80FWKcVupnQ.jpeg"; sourceTree = "<group>"; };
 		0D72D0FE21761FE200FC686F /* AbstractProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractProxy.m; sourceTree = "<group>"; };
 		0D72D0FF21761FE200FC686F /* AbstractProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProxy.h; sourceTree = "<group>"; };
 		0D72D142217666F800FC686F /* CategoryDataFetchProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryDataFetchProxy.h; sourceTree = "<group>"; };
@@ -118,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2696122177C329002797E3 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0D2696142177C337002797E3 /* NLCropViewLayer.h */,
+				0D2696132177C337002797E3 /* NLCropViewLayer.m */,
+				0D2696162177C337002797E3 /* NLImageCropperView.h */,
+				0D2696152177C337002797E3 /* NLImageCropperView.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
 		0D72D0FC217615E500FC686F /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				0DAD94E12174FEAA00CCAA93 /* Fynd_Assignment.pch */,
+				0D2696192177C426002797E3 /* 1*2b3S0aLh90f80FWKcVupnQ.jpeg */,
 				0DAD94972174849200CCAA93 /* Fynd_Assignment */,
 				0DAD94B0217484AA00CCAA93 /* Fynd_AssignmentTests */,
 				0DAD94BB217484AA00CCAA93 /* Fynd_AssignmentUITests */,
@@ -171,6 +191,7 @@
 		0DAD94972174849200CCAA93 /* Fynd_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				0D2696122177C329002797E3 /* ThirdParty */,
 				0D72D0FC217615E500FC686F /* Network */,
 				0DC499FF21759CE00024587F /* CustomViewAndCells */,
 				0DAD950A2175030200CCAA93 /* Helpers */,
@@ -412,6 +433,7 @@
 				0DAD94A5217484A900CCAA93 /* LaunchScreen.storyboard in Resources */,
 				0DAD94A2217484A900CCAA93 /* Assets.xcassets in Resources */,
 				0DAD94A02174849200CCAA93 /* Main.storyboard in Resources */,
+				0D26961A2177C426002797E3 /* 1*2b3S0aLh90f80FWKcVupnQ.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,11 +531,13 @@
 				0D72D144217666F800FC686F /* CategoryDataFetchProxy.m in Sources */,
 				0DAD94D7217490DE00CCAA93 /* AppDelegate.m in Sources */,
 				0DAD950F217503FB00CCAA93 /* AbstractViewController.m in Sources */,
+				0D2696172177C338002797E3 /* NLCropViewLayer.m in Sources */,
 				0DC49A052176046D0024587F /* ProductCollectionViewCell.m in Sources */,
 				0DAD94A8217484A900CCAA93 /* main.m in Sources */,
 				0DCF9BF221774712007D7B09 /* ProductImageViewController.m in Sources */,
 				0DC49A0221759D040024587F /* ProductsTableViewCell.m in Sources */,
 				0DAD94EC2175029E00CCAA93 /* ProductsViewController.m in Sources */,
+				0D2696182177C338002797E3 /* NLImageCropperView.m in Sources */,
 				0DAD94DF2174980500CCAA93 /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
