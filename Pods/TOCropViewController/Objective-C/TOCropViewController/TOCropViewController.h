@@ -85,7 +85,7 @@
 
 /**
  The minimum croping aspect ratio. If set, user is prevented from setting cropping rectangle to lower aspect ratio than defined by the parameter.
- */
+ */ 
 @property (nonatomic, assign) CGFloat minimumAspectRatio;
 
 /**

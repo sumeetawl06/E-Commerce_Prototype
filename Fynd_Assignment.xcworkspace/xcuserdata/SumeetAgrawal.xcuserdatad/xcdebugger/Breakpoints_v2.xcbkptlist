@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Fynd_Assignment/Network/CategoryDataFetchProxy/CategoryDataFetchProxy.m"
-            timestampString = "561465014.037771"
+            filePath = "Fynd_Assignment/ViewControllers/ProductImageViewController/ProductImageViewController.m"
+            timestampString = "561620014.929512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-failedWitherror:withRequestName:"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "-doubleTapGesture:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Fynd_Assignment/ViewControllers/ProductImageViewController/ProductImageViewController.m"
-            timestampString = "561499533.8218451"
+            timestampString = "561620014.930046"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "-doubleTapGesture:"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-addDoubleTapGesture"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
